@@ -4,7 +4,7 @@ datePublished: Thu Nov 07 2024 14:25:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm37egl5p000009jv8wqm2u8g
 slug: introduction-to-react-learn-the-basics-of-this-essential-frontend-tool
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/UYsBCu9RP3Y/upload/2d5f5d442277a7d3f3933b746dc34048.jpeg
-tags: reactjs
+tags: reactjs, reacthooks
 
 ---
 
