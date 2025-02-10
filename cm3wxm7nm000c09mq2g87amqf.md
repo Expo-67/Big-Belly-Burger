@@ -18,7 +18,7 @@ Driver- works in tandem with the built in Node.js Bson package to interact with 
 
 ## Connecting to an Atlas Cluster in Node.js Applications
 
-Create a new folder called test install the following dependencies: npm init -y (package.json) npm install mongodb.
+Create a new folder called test install the following dependencies: npm init -y (package.json) npm installs mongodb.
 
 Create a file called atlas\_uri.js and add the following codemodule.export = uri =
 
