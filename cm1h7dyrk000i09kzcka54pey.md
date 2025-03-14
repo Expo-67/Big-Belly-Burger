@@ -3,7 +3,8 @@ title: "Express Js"
 datePublished: Wed Sep 25 2024 01:45:26 GMT+0000 (Coordinated Universal Time)
 cuid: cm1h7dyrk000i09kzcka54pey
 slug: express-js
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/KE0nC8-58MQ/upload/f66f15cd0757a8d1c011ac36cd42b035.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/2JIvboGLeho/upload/52bd149fd0531d5c22ca86b6dcd1bf70.jpeg
+tags: express, expressjs-cilb5apda0066e053g7td7q24
 
 ---
 
