@@ -106,14 +106,14 @@ export default Counter;
 
 **Functional Component(** Uses **hooks** for state and logic.)
 
-**Class Component (**a react component written as a **class** that uses **this**, **state**, and **lifecycle methods**.)
+\*\*Class Component (\*\*a react component written as a **class** that uses **this**, **state**, and **lifecycle methods**.)
 
 5. What is the difference between a stateless and a stateful component in React?
     
 
 Stateless components do not manage or store there data they simply <mark>receive data via prompts and display it</mark>. Best used if you want to display any logic on your user interface
 
-Stateful components on the other hand <mark> can manage their own state </mark> and can <mark>update their existing state based on user interaction</mark> or other events
+Stateful components on the other hand <mark>can manage their own state </mark> and can <mark>update their existing state based on user interaction</mark> or other events
 
 with the introduction of functional components you can keep components to be stateful or stateless
 
@@ -173,6 +173,69 @@ Keys help React keep track of list items so it updates the UI correctly and effi
 10. What are fragments in React and how are they useful
     
 
-Fragments- a way to group multiple elements together without adding extra node to the DOM.
+Fragments- a way to <mark>group multiple elements together </mark> without adding extra node to the DOM.
 
 fragments are used when you want to avoid unnecessary
+
+### Module 2
+
+11. What is the virtual DOM and how does React use it to improve performance?
+    
+
+A virtual DOM is a <mark>lightweight copy in memory representation </mark> of the actual DOM ( when running a React component they are two doms one is the real dom and another the virtual dom)
+
+Virtual DOM works by checking through the code you are writing and only the changes that are made in the code are made to reflect in the original DOM
+
+12. What are React lifecycle methods and when are they used?
+    
+
+React lifecycle methods are **special functions in class components** that let developers run code at specific moments in a component’s life.
+
+They help you control what happens when a component:
+
+1. **Initializes** (gets created)
+    
+2. **Mounts** (first appears on the screen)
+    
+3. **Updates** (when props or state change)
+    
+4. **Unmounts** (gets removed from the screen)
+    
+    ✅ **Main Lifecycle Stages**
+    
+
+### **1\. Initialization**
+
+* Component sets up state and props.
+    
+* Happens in the **constructor()**.
+    
+
+### **2\. Mounting (component appears)**
+
+* `componentDidMount()`  
+    Used for: API calls, fetching data, setting timers.
+    
+
+### **3\. Updating (state/props change)**
+
+* `componentDidUpdate()`  
+    Used for: responding to changes, re-fetching data.
+    
+
+### **4\. Unmounting (component removed)**
+
+* `componentWillUnmount()`  
+    Used for: cleanup, removing event listeners, clearing intervals.
+    
+    ## ✅ **Simple Summary**
+    
+
+**Lifecycle methods let you run code at specific points from creation → update → removal of a component.** Only used in **class components**. Functional components use **hooks** instead (like `useEffect`).
+
+13. Explain the UseState and useEffect hooks with examples
+    
+
+Usestate- it is used to store the fetched data and the loading state ( a container think of doing a count and every time the value increases it is stored in the container )
+
+UseEffect - it is used to perform side effects example when making an API call what happens in the background that is all controlled by use effects
